@@ -42,11 +42,11 @@ public class Lab1P2_FernandoPadilla {
                         dias = Integer.parseInt(fecha1[0]) - Integer.parseInt(fecha2[0]);
                     }else{
                         dias = Integer.parseInt(fecha2[0]) - Integer.parseInt(fecha1[0]);
-                    }if(Integer.parseInt(fecha1[0]) > Integer.parseInt(fecha2[0])){
+                    }if(Integer.parseInt(fecha1[1]) > Integer.parseInt(fecha2[1])){
                         meses = Integer.parseInt(fecha1[1]) - Integer.parseInt(fecha2[1]);
                     }else{
                         meses = Integer.parseInt(fecha2[1]) - Integer.parseInt(fecha1[1]);
-                    }if(Integer.parseInt(fecha1[0]) > Integer.parseInt(fecha2[0])){
+                    }if(Integer.parseInt(fecha1[2]) > Integer.parseInt(fecha2[2])){
                         años = Integer.parseInt(fecha1[2]) - Integer.parseInt(fecha2[2]);
                     }else{
                         años = Integer.parseInt(fecha2[2]) - Integer.parseInt(fecha1[2]);
